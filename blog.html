@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Blog</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-wrap">
+        <a href="index.html"><img class="logo" src="images/WM-logo.png" alt="Wahl Marketing Communications Logo"></a>
+        <button class="ham">
+            <span class="menuIcon material-icons md-light md-48">
+                menu
+            </span>
+            <span class="xIcon material-icons md-light md-48" style="display: none;">
+                close
+            </span>
+        </button>        
+        </div>
+        <nav class="links">
+        <ul>
+            <li><a class = "menuLink" href="services.html">Services</a></li>
+            <li><a  class = "menuLink" href="results.html">Results</a></li>
+            <li><a  class = "menuLink" href="blog.html">Blog</a></li>
+            <li><a  class = "menuLink" href="">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <div class="container" id="blog-wrapper">
+        <div class="blog-item">
+            <a href="./blog/content-marketing-ideas-and-tactics-for-every-stage-of-the-b2b-sales-funnel.html"><img src="images/WMblog-funnel.png" alt=""></a>
+            <a href="./blog/content-marketing-ideas-and-tactics-for-every-stage-of-the-b2b-sales-funnel.html"><h3>Content marketing ideas and tactics for every stage of the B2B sales funnel</h3></a>
+            <p>Content marketing belongs in every stage of your B2B sales cycle. No matter how large, small, manual, or automated your sales approach is...</p>
+        </div>
+        <div class="blog-item">
+            <a href="./blog/list-of-free-social-media-resources-for-b2b-companies.html"><img src="images/WMblog-Resources.png" alt=""></a>
+            <a href="./blog/list-of-free-social-media-resources-for-b2b-companies.html"><h3>List of free social media resources for B2B companies</h3></a>
+            <p>Social media is a lot of work for any sized company. Signing up for a social media account is free but the time and resources needed to successfully run it is not...</p>
+        </div>
+        <div class="blog-item">
+            <a href="./blog/list-of-free-social-media-resources-for-b2b-companies.html"><img src="images/WMblog-Calendar-two.png" alt=""></a>
+            <a href="./blog/list-of-free-social-media-resources-for-b2b-companies.html"><h3>Content marketing ideas and tactics for every stage of the B2B sales funnel</h3></a>
+            <p>Starting, scaling, or planning ahead your content operations can be a daunting task. This guide will help answer commonly asked questions...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="blog-item">
+            <a href="#"><img src="images/WMblog-funnel.png" alt=""></a>
+            <a href=""><h3>Content marketing ideas and tactics for every stage of the B2B sales funnel</h3></a>
+            <p>Content marketing belongs in every stage of your B2B sales cycle. No matter how large, small, manual, or automated your sales approach is...</p>
+        </div>
+        <div class="blog-item">
+            <a href="#"><img src="images/WMblog-funnel.png" alt=""></a>
+            <a href=""><h3>Content marketing ideas and tactics for every stage of the B2B sales funnel</h3></a>
+            <p>Content marketing belongs in every stage of your B2B sales cycle. No matter how large, small, manual, or automated your sales approach is...</p>
+        </div>
+        <div class="blog-item">
+            <a href="#"><img src="images/WMblog-funnel.png" alt=""></a>
+            <a href=""><h3>Content marketing ideas and tactics for every stage of the B2B sales funnel</h3></a>
+            <p>Content marketing belongs in every stage of your B2B sales cycle. No matter how large, small, manual, or automated your sales approach is...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="blog-item">
+            <a href="#"><img src="images/WMblog-funnel.png" alt=""></a>
+            <a href=""><h3>Content marketing ideas and tactics for every stage of the B2B sales funnel</h3></a>
+            <p>Content marketing belongs in every stage of your B2B sales cycle. No matter how large, small, manual, or automated your sales approach is...</p>
+        </div>
+        <div class="blog-item">
+            <a href="#"><img src="images/WMblog-funnel.png" alt=""></a>
+            <a href=""><h3>Content marketing ideas and tactics for every stage of the B2B sales funnel</h3></a>
+            <p>Content marketing belongs in every stage of your B2B sales cycle. No matter how large, small, manual, or automated your sales approach is...</p>
+        </div>
+        <div class="blog-item">
+            <a href="#"><img src="images/WMblog-funnel.png" alt=""></a>
+            <a href=""><h3>Content marketing ideas and tactics for every stage of the B2B sales funnel</h3></a>
+            <p>Content marketing belongs in every stage of your B2B sales cycle. No matter how large, small, manual, or automated your sales approach is...</p>
+        </div>
+    </div>
+
+    <div class="container" id="vert">
+        <div class="CTA-button uppercase" id="width"><a href="#">Get in touch</a></div>
+    </div>
+
+    <footer>
+        <div class="contact">
+            <p><strong>Call:</strong> 513-706-2303</p>
+            <p><strong>Email:</strong> Jim@WahlMarketing.com</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/WahlMarketing/"><img src="images/facebook.jpg" alt="Facebook icon"></a>
+            <a href="https://twitter.com/wahlmarketing"><img src="images/twitter.jpg" alt="Twitter icon"></a>
+            <a href="https://www.linkedin.com/company/wahl-marketing-communications/"><img src="images/linkedin.png" alt="LinkedIn icon"></a>
+        </div>
+    </footer>
+
+    <script>
+        var menu = document.querySelector(".links");
+    var ham = document.querySelector(".ham");
+    var xIcon = document.querySelector(".xIcon");
+    var menuIcon = document.querySelector(".menuIcon");
+
+    ham.addEventListener("click", toggleMenu);
+    menu.classList.contains("showMenu");
+    // toggle menu in and out when clicking on the hamburger
+    function toggleMenu() {
+    if (menu.classList.contains("showMenu")) {
+        menu.classList.remove("showMenu");
+        xIcon.style.display = "none";
+        menuIcon.style.display = "block";
+    } else {
+        menu.classList.add("showMenu");
+        xIcon.style.display = "block";
+        menuIcon.style.display = "none";
+    }
+    }
+    var menuLinks = document.querySelectorAll(".menuLink");
+    menuLinks.forEach( 
+    function(menuLink) { 
+    menuLink.addEventListener("click", toggleMenu);
+    }
+    )
+    </script>
+    
+</body>
+</html>
