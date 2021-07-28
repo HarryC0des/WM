@@ -15,8 +15,8 @@
 
 @font-face {
     font-family: 'Yantramanav';
-    src: url('/fonts/Yan/Yantramanav-Regular.woff2') format('woff2'),
-        url('/fonts/Yan/Yantramanav-Regular.woff') format('woff');
+    src: url('fonts/Yan/Yantramanav-Regular.woff2') format('woff2'),
+        url('fonts/Yan/Yantramanav-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
