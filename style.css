@@ -11,7 +11,7 @@ html{
 
 h1{
     font-family: Yantramanav;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
     color: #00598B;
@@ -211,7 +211,7 @@ header{
             text-decoration: none;
             color: white;
             font-family: Nunito Sans;
-            font-size: 1.25rem;
+            font-size: 3rem;
         }
 
         a{
