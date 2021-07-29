@@ -287,7 +287,6 @@ header{
         margin: 5px;
         font-size: 1.5rem;
         font-style: italic;
-        font-weight: 200;
     }
 
     .testimonial-item:nth-child(2){
@@ -473,6 +472,10 @@ Footer{
     align-items: center;
 }
 
+.blog-item p{
+    width: 100%;
+}
+
 .blog-item img{
     width: 300px;
     border-radius: 10px;
@@ -494,7 +497,7 @@ img.blog-hero{
 }
 
 .blog-wrapper p{
-    width: 300px;
+    width: 100%;
 }
 
 .blog-wrapper a:hover{
