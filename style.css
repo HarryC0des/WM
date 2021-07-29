@@ -287,6 +287,7 @@ header{
         margin: 5px;
         font-size: 1.5rem;
         font-style: italic;
+        font-weight: 200;
     }
 
     .testimonial-item:nth-child(2){
@@ -295,7 +296,7 @@ header{
         background-size: 100%;
         background-position: bottom;
         background-repeat: no-repeat;
-        height: 400px;
+        height: 300px;
     }
 
     .testimonial-item:nth-child(3){
@@ -304,7 +305,7 @@ header{
         background-size: 100%;
         background-position: bottom;
         background-repeat: no-repeat;
-        height: 200px;
+        height: 300px;
     }
 
     .testimonial-item:nth-child(4){
@@ -313,7 +314,7 @@ header{
         background-size: 100%;
         background-position: bottom;
         background-repeat: no-repeat;
-        height: 200px;
+        height: 300px;
     }
 
     /*This moves the Company Name to be right-aligned*/
