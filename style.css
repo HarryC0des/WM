@@ -473,7 +473,7 @@ Footer{
 }
 
 .blog-item p{
-    max-width: 100%;
+    max-width: none;
 }
 
 .blog-item img{
