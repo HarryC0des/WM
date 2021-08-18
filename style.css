@@ -98,6 +98,12 @@ p, h1, h2 {
     align-items: center;
 }
 
+.form-container{
+    margin: 30px 0px 30px 0px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .container-no-bottom-margin {
     width: 100%;
     display: flex;
@@ -666,6 +672,13 @@ max-width: 300px;
         padding-right: 10%;
         margin-bottom: 75px;
     }
+
+    .form-container{
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 75px;  
+    }
+
     .container-no-bottom-margin{
         display: flex;
         flex-direction: row;
