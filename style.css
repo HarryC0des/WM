@@ -833,6 +833,8 @@ max-width: 300px;
         display: flex;
         justify-content: space-around;
         height: 500px;
+        max-width: 1250px;
+
     }
     .testimonial-item:nth-child(2), .testimonial-item:nth-child(3), .testimonial-item:nth-child(4){
         height: 300px;
