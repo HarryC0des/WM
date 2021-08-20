@@ -564,7 +564,7 @@ max-width: 300px;
 
     /*Testimonials*/
     .testimonial-item{
-        max-width: 500px;
+        max-width: 300px;
     }
     .testimonial-item:nth-child(2), .testimonial-item:nth-child(3), .testimonial-item:nth-child(4){
         height: 420px;
