@@ -814,7 +814,7 @@ max-width: 300px;
     }
     /*Adjusting CTA Buttons for Desktop*/
     .CTA-button, .CTA-button-secondary{
-        max-width: 150px;
+        max-width: 175px;
         font-size: 1.5rem;
         padding: 5px 20px 5px 20px;
     }
