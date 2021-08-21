@@ -139,6 +139,10 @@ div#skip-margin{
     text-align: center;
 }
 
+#center-text{
+    text-align: center;
+}
+
 .container > h1, h2, p, img, div{
     margin-bottom: 20px;
 }
