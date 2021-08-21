@@ -845,6 +845,7 @@ max-width: 300px;
     }
     .testimonial-item:hover{
         transform:translateY(-10px);
+        border: 5px solid #4DBEFF;
         transition: 0.5s ease;
     }
     /* Adjusting megaphone section on Home Page for Desktop */
